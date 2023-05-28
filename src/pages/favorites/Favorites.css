@@ -1,0 +1,9 @@
+.favoritesHeader {
+    background-color: #fff;
+    color: #41403e;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,41 @@
+.im-s {
+  border-radius: 10px;
+  margin-left: 55px ;
+  animation: f 5s 2;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/3964363/pexels-photo-3964363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.gallery {
+  width: 80%;
+  margin: 20px auto;
+}
+@keyframes f {
+  from {
+    clip-path: polygon(
+      100% 0,
+      100% 0,
+      100% 0,
+      100% 0,
+      /*1,2,3,4*/ 0 100%,
+      0 100%,
+      0 100%,
+      0 100%
+    ); /*5,6,7,8*/
+  }
+  10%,
+  to {
+    clip-path: polygon(
+      0 50%,
+      0 0,
+      100% 0,
+      100% 50%,
+      /*1,2,3,4*/ 0 50%,
+      0 100%,
+      100% 100%,
+      100% 50%
+    ); /*5,6,7,8*/
+  }
+}
